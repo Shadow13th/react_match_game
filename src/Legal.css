@@ -1,0 +1,20 @@
+.legalContainer img {
+	width: 100px;
+	margin: 30px 0;
+}
+
+.legalContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.legalHolder {
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.legalContainer p {
+	margin-bottom: 15px;
+}

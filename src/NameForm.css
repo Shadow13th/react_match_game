@@ -1,0 +1,115 @@
+form {
+	width: 90%;
+	margin: 100px auto 0 auto;
+	width: 90%;
+	background-color: dodgerblue;
+	padding: 30px 15px;
+	border: 5px solid yellow;
+	border-radius: 20px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+form h2 {
+	text-align: center;
+	margin: 10px 0 30px 0;
+	color: white;
+}
+
+.inputRow {
+	display: flex;
+}
+
+input:not([type='submit']) {
+	font-size: 14pt;
+	padding: 5px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: #eee;
+	outline: 3px solid white;
+	border: none;
+}
+
+input[type='checkbox'] {
+	margin: 0 10px 0 20px;
+}
+
+.test {
+	width: 70px;
+	height: 70px;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+.inputRow input {
+	width: 100%;
+	
+	display: flex;
+}
+
+#doubleRow {
+	justify-content: space-between;
+}
+
+#doubleRow input {
+	width: 40%;
+}
+
+.dropdownHolder {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 8px;
+}
+
+select {
+	font-size: 14pt;
+	background-color: #eee;
+	padding: 5px;
+	border-radius: 10px;
+	outline: 3px solid white;
+	border: none;
+}
+
+#textError, #chboxError {
+	display: none;
+	color: red;
+	background-color: white;
+	padding: 5px;
+	font-weight: 600;
+	font-size: 14pt;
+	margin: 10px 0;
+}
+
+.checkboxHolder {
+	margin-top: 12px;
+}
+
+.checkboxRow {
+	display: flex;
+	align-items: center;
+}
+
+.checkboxRow p {
+	margin: 3px 0;
+}
+
+#signup-logo {
+	width: 50%;
+	margin-top: -125px;
+	align-self: center;
+	/* margin: -125px auto 0 auto; */
+}
+
+input[type='submit'] {
+	background-color: red;
+	color: white;
+	border-radius: 10px;
+	padding: 10px 5px;
+	text-align: center;
+	width: 100%;
+	font-size: 14pt;
+	border: none;
+	outline: 3px solid white;
+	margin-top: 25px;
+}

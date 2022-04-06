@@ -1,0 +1,70 @@
+
+.aboutContainer {
+	width: 90%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.aboutContainer h2 {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.aboutContainer p {
+	margin-bottom: 10px;
+}
+
+table {
+  width: 90%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: dodgerblue;
+  border-style: solid;
+  color: #000000;
+  margin: 20px auto;
+  text-align: center;
+}
+
+table td, table th {
+  border-width: 2px;
+  border-color: dodgerblue;
+  border-style: solid;
+  padding: 3px;
+}
+
+table thead {
+  background-color: dodgerblue;
+}
+
+#toHome {
+	color: dodgerblue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.menuCardHolder {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menuCard {
+	width: 30%;
+	border: 2px solid yellow;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: dodgerblue;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	cursor: pointer;
+	box-shadow: 0 5px 10px -1px rgba(0, 0, 0, 0.25);
+}
+
+.menuCard img {
+	width: 75%;
+	margin-bottom: 5px;
+}
